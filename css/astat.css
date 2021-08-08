@@ -1,0 +1,163 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003868;
+	background-color: #FEFEFE;
+	margin: 6mm;
+}
+
+div.ramka  {
+width: auto;	
+font-size: 0.8em;
+margin: 4px 3px;
+line-height: 1.5em;
+background-color: #EFEFEF;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+border: 1px solid #CCCCCC;
+padding: 8px;
+}
+
+.box {
+  float: left;
+  width: 400px;
+  height: 50px;
+  margin: 1em;
+  color: #61bf8d;
+  font-size: 1.8em;
+  padding: 2px 4px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f4bf42;
+}
+.after-box {
+  font-size: 1.4em; 	
+  clear: left;
+}
+
+.box1 {
+  float: left;
+  width: 400px;
+  height: auto ;
+  margin: 1em;
+  color: #61bf8d;
+  padding: 2px 4px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #edeff2;
+}
+
+ table.bottomBorder { 
+    border-collapse: collapse;
+    margin: 3px 4px; 
+  }
+  table.bottomBorder td, 
+  table.bottomBorder th { 
+    border-bottom: 1px solid yellowgreen;
+    border-right: 1px solid yellowgreen ; 
+    padding: 10px; 
+    text-align: left;
+    margin: 2px 12px;
+  }
+  
+ 
+table.ramka {
+	border-collapse: collapse;
+	border: 4px solid black;
+	padding: 5px;
+}
+
+
+table.ramka th, td {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 10px 8px;
+}
+
+table.ramka td {
+    text-align: left;
+}
+
+table.ramka tr:hover {
+  background-color: #ffffcc;
+}
+
+table.ramka th {
+	text-align: center;
+	background-color: #E6EBED;
+}
+
+table.ramka tr:nth-child(even) {background-color: #f2f2f2}
+
+p {
+	text-align: justify;
+}
+p.center{
+	text-align: center;
+}
+
+.menu-h {
+	width: auto;
+	font-size: 1.2em;
+}
+.menu-h p {
+	text-align: center;
+}
+.menu-h ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+.menu-h li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+.menu-h li:last-child {
+	border-right: none;
+}
+.menu-h li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #163f7f;
+}
+
+.menu-h li a:hover:not (.active ) {
+	background-color: #111;
+}
+.menu-h li a:hover {
+	background-color: #111;
+}
+.menu-h .active {
+	background-color: #4CAF50;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EFEFEF;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: inline-block;
+    color: #000F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #8dce57;
+}

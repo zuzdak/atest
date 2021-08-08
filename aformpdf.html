@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" >
+<head>
+<title>PDF CUTTER </title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="./css/stat.css" />
+</head>
+<body>
+
+
+<div class="ex6">
+<p style="text-align:center;"> 
+<strong style="font-size:1.5em;"> WYCINANIE STRON z pliku PDF do pliku PDF </strong> 
+</p>
+
+<p style="text-align:center;"> 
+MAX FILE SIZE 8 Mb &nbsp; <button style="color: #051e47;" class="btn btn-success" onclick=" window.open('pdftk.php','refresh')"> REFRESH<br>PAGE</button>
+&nbsp; <button style="color: #051e47;" class="btn btn-success" onclick=" window.open('wyloguj.php','_self')"> Wyloguj</button>
+</p>	
+
+<form enctype="multipart/form-data" action="pdftk.php" method="post">
+<p style="font-size: 1.0em;">
+Strona od: <input type="text" size="4" name="p" placeholder="1"> 
+do: <input type="text" size="4" name="k" placeholder="1">  
+<br>
+
+</p>
+<input type="hidden" name="MAX_FILE_SIZE" value="25000000" />
+<p style="font-size: 1.0em;">
+ Plik <input style="font-size:1.5em;" name="afile" type="file" /> 
+  <input style="font-size:1.3em;" type="submit" name="zap" value="WYTNIJ do PDF" />
+</p>
+</form>
+</div>
+
+

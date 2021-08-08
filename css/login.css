@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+/* -- Specific styles ----------------------------- */
+
+form  			{ margin: 0px; padding: 0px; }
+form .inputbox  { width: 120px; margin-left: 10px; }
+form br 	    { display: none; }
+.login          { margin: 0 auto; width: 500px; margin-bottom: 100px; }
+
+h1 {
+  margin: 15px 0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+div.login {
+	absolute: 100px 50px ;
+	background: transparent;
+	border: 1px solid #EEEEEE;
+	padding: 5px;
+	max-width: 300px;
+	z-index:13000;
+}
+
+
+.button { text-align: center; }
+
+.login-form    { text-align: left; width: 60%; }
+.login-form h1 { display: none; }
+.login-form p  { padding: 0 1em 0 1em; }
+
+.login-text { text-align: left; width: 40%; float: left; }
+
+#form-login label {
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: right;
+	padding: 4px;
+	color: #666777;
+	font-weight: bold;
+}
+
+
+
+
+
