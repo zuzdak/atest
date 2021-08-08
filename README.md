@@ -13,4 +13,7 @@ yum install tesseract   -----------------
 yum install tesseract-langpack-pol    -----------------
 yum install poppler-utils    -----------------
 yum install -y libjpeg libjpeg-devel    -----------------
-yum install pdftk    -----------------
+yum install pdftk    --------------------
+------------ > don't forget add appropriate privilege using commands like ::
+chown -R xxx:yyy dir/  ---- as well  -------  
+--- chmod -R 775 dir/ 
